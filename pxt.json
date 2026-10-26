@@ -1,0 +1,25 @@
+{
+    "name": "controle atualisado cll",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "my-controller": "github:aorczyk/my-controller#v2.2.7"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "9.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
